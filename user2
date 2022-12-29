@@ -1,0 +1,73 @@
+
+import java.util.Scanner;
+
+public class TestPractice1 
+{    
+    public static void main(String[] args) 
+    {
+   
+    {
+       
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Welcome to matrix operation program");
+        System.out.println("Enter valid choice to perform particular operation");
+        System.out.println("1. Addition of two 2 - D Matrices");
+        System.out.println("2. Multiplication of two 2 - D Matrices");
+        System.out.println("3. Transpose of two 2 - D Matrix");
+        System.out.println("4. Rotate 1-D matrix in Left direction");
+        System.out.println("5. Rotate 1-D matrix in Right direction");
+        int choice; 
+        
+        do
+        {
+            System.out.println("Enter your choice");
+            choice = sc.nextInt();
+            switch(choice)
+            {
+                case 1:
+                //declare two 2-d matrix here
+                //Take values of those matrix from user
+                //perform its addition in thrid matrix
+                //display it on screen using proper nested loop
+                break;
+
+                case 2:
+                //declare two 2-d matrix here
+                //Take values of those matrix from user
+                //perform its multiplicatiob in thrid matrix
+                //display it on screen using proper nested loop
+                break;
+                
+                case 3:
+                //declare one 2-d matrix here
+                //Take values of that matrix from user
+                //perform its transpose 
+                //display it on screen using proper nested loop
+                break;
+                
+                case 4:
+                //declare one 1-D array here
+                //Rorare it left
+                //Display the final 1-D matrix here
+                break;
+
+                case 5:
+                //declare one 1-D array here
+                //Rorare it right
+                //Display the final 1-D matrix here
+                
+                case 6:
+                System.out.println("Your system is stopping here");
+
+                default:
+                System.out.println("Enter valid choice again");
+            }
+        }
+        while(choice != 6);
+        
+    }
+  }
+
+}
+    
+
